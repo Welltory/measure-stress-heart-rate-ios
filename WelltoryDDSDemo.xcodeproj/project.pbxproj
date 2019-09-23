@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAA9418F233220FD0004982D /* DDSResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9418E233220FD0004982D /* DDSResult.swift */; };
+		CAB6C2E1231938CF009F6003 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB6C2E0231938CF009F6003 /* UIView.swift */; };
+		CAB6C2E323193DCE009F6003 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB6C2E223193DCE009F6003 /* Button.swift */; };
+		CAB6C2F023194435009F6003 /* Proxima Nova Alt Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAB6C2E823194435009F6003 /* Proxima Nova Alt Thin.otf */; };
+		CAB6C2F123194435009F6003 /* Proxima Nova Alt Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAB6C2E923194435009F6003 /* Proxima Nova Alt Bold.otf */; };
+		CAB6C2F223194435009F6003 /* Proxima Nova Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAB6C2EA23194435009F6003 /* Proxima Nova Extrabold.otf */; };
+		CAB6C2F323194435009F6003 /* Proxima Nova Alt Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAB6C2EB23194435009F6003 /* Proxima Nova Alt Light.otf */; };
+		CAB6C2F423194435009F6003 /* Proxima Nova Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAB6C2EC23194435009F6003 /* Proxima Nova Black.otf */; };
+		CAB6C2F523194435009F6003 /* Proxima Nova Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAB6C2ED23194435009F6003 /* Proxima Nova Bold.otf */; };
+		CAB6C2F623194435009F6003 /* Proxima Nova Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAB6C2EE23194435009F6003 /* Proxima Nova Regular.otf */; };
+		CAB6C2F723194435009F6003 /* Proxima Nova Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAB6C2EF23194435009F6003 /* Proxima Nova Thin.otf */; };
+		CAB6C2F923194963009F6003 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB6C2F823194963009F6003 /* ResultViewController.swift */; };
+		CABA781623141ECF0016B551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABA781523141ECF0016B551 /* AppDelegate.swift */; };
+		CABA781823141ECF0016B551 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABA781723141ECF0016B551 /* ViewController.swift */; };
+		CABA781B23141ECF0016B551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABA781923141ECF0016B551 /* Main.storyboard */; };
+		CABA781D23141ED40016B551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABA781C23141ED40016B551 /* Assets.xcassets */; };
+		CABA782023141ED40016B551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABA781E23141ED40016B551 /* LaunchScreen.storyboard */; };
+		CAD8BBDB23142E4000A85174 /* NSNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD8BBDA23142E4000A85174 /* NSNotificationName.swift */; };
+		CAD8BBE123144CAE00A85174 /* DDSConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD8BBE023144CAE00A85174 /* DDSConfig.swift */; };
+		CAF14F4A2317F2D500E853FD /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF14F492317F2D500E853FD /* UserDefaults.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CAA9418E233220FD0004982D /* DDSResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDSResult.swift; sourceTree = "<group>"; };
+		CAB6C2E0231938CF009F6003 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		CAB6C2E223193DCE009F6003 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		CAB6C2E823194435009F6003 /* Proxima Nova Alt Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Thin.otf"; sourceTree = "<group>"; };
+		CAB6C2E923194435009F6003 /* Proxima Nova Alt Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Bold.otf"; sourceTree = "<group>"; };
+		CAB6C2EA23194435009F6003 /* Proxima Nova Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Extrabold.otf"; sourceTree = "<group>"; };
+		CAB6C2EB23194435009F6003 /* Proxima Nova Alt Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Light.otf"; sourceTree = "<group>"; };
+		CAB6C2EC23194435009F6003 /* Proxima Nova Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Black.otf"; sourceTree = "<group>"; };
+		CAB6C2ED23194435009F6003 /* Proxima Nova Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Bold.otf"; sourceTree = "<group>"; };
+		CAB6C2EE23194435009F6003 /* Proxima Nova Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Regular.otf"; sourceTree = "<group>"; };
+		CAB6C2EF23194435009F6003 /* Proxima Nova Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Thin.otf"; sourceTree = "<group>"; };
+		CAB6C2F823194963009F6003 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		CABA781223141ECF0016B551 /* WelltoryDDSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WelltoryDDSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABA781523141ECF0016B551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CABA781723141ECF0016B551 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CABA781A23141ECF0016B551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CABA781C23141ED40016B551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CABA781F23141ED40016B551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CABA782123141ED40016B551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD8BBDA23142E4000A85174 /* NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationName.swift; sourceTree = "<group>"; };
+		CAD8BBE023144CAE00A85174 /* DDSConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDSConfig.swift; sourceTree = "<group>"; };
+		CAED6BA4231E6C64006852F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		CAED6BA5231E6C6F006852F3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		CAED6BA6231E6C6F006852F3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		CAF14F492317F2D500E853FD /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CABA780F23141ECF0016B551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAB6C2E423193ECC009F6003 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CAB6C2E0231938CF009F6003 /* UIView.swift */,
+				CAB6C2E223193DCE009F6003 /* Button.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CAB6C2E623194435009F6003 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				CAB6C2E723194435009F6003 /* ProximaNova */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		CAB6C2E723194435009F6003 /* ProximaNova */ = {
+			isa = PBXGroup;
+			children = (
+				CAB6C2E823194435009F6003 /* Proxima Nova Alt Thin.otf */,
+				CAB6C2E923194435009F6003 /* Proxima Nova Alt Bold.otf */,
+				CAB6C2EA23194435009F6003 /* Proxima Nova Extrabold.otf */,
+				CAB6C2EB23194435009F6003 /* Proxima Nova Alt Light.otf */,
+				CAB6C2EC23194435009F6003 /* Proxima Nova Black.otf */,
+				CAB6C2ED23194435009F6003 /* Proxima Nova Bold.otf */,
+				CAB6C2EE23194435009F6003 /* Proxima Nova Regular.otf */,
+				CAB6C2EF23194435009F6003 /* Proxima Nova Thin.otf */,
+			);
+			path = ProximaNova;
+			sourceTree = "<group>";
+		};
+		CABA780923141ECF0016B551 = {
+			isa = PBXGroup;
+			children = (
+				CABA781423141ECF0016B551 /* WelltoryDDSDemo */,
+				CABA781323141ECF0016B551 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CABA781323141ECF0016B551 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CABA781223141ECF0016B551 /* WelltoryDDSDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CABA781423141ECF0016B551 /* WelltoryDDSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CABA781523141ECF0016B551 /* AppDelegate.swift */,
+				CABA781723141ECF0016B551 /* ViewController.swift */,
+				CAB6C2F823194963009F6003 /* ResultViewController.swift */,
+				CABA781923141ECF0016B551 /* Main.storyboard */,
+				CABA781C23141ED40016B551 /* Assets.xcassets */,
+				CABA781E23141ED40016B551 /* LaunchScreen.storyboard */,
+				CABA782123141ED40016B551 /* Info.plist */,
+				CAD8BBDA23142E4000A85174 /* NSNotificationName.swift */,
+				CAD8BBE023144CAE00A85174 /* DDSConfig.swift */,
+				CAF14F492317F2D500E853FD /* UserDefaults.swift */,
+				CAA9418E233220FD0004982D /* DDSResult.swift */,
+				CAB6C2E623194435009F6003 /* Font */,
+				CAB6C2E423193ECC009F6003 /* Extensions */,
+			);
+			path = WelltoryDDSDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CABA781123141ECF0016B551 /* WelltoryDDSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABA782423141ED40016B551 /* Build configuration list for PBXNativeTarget "WelltoryDDSDemo" */;
+			buildPhases = (
+				CABA780E23141ECF0016B551 /* Sources */,
+				CABA780F23141ECF0016B551 /* Frameworks */,
+				CABA781023141ECF0016B551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WelltoryDDSDemo;
+			productName = WelltoryDDSDemo;
+			productReference = CABA781223141ECF0016B551 /* WelltoryDDSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CABA780A23141ECF0016B551 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Welltory LTD";
+				TargetAttributes = {
+					CABA781123141ECF0016B551 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = CABA780D23141ECF0016B551 /* Build configuration list for PBXProject "WelltoryDDSDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = CABA780923141ECF0016B551;
+			productRefGroup = CABA781323141ECF0016B551 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CABA781123141ECF0016B551 /* WelltoryDDSDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CABA781023141ECF0016B551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB6C2F523194435009F6003 /* Proxima Nova Bold.otf in Resources */,
+				CAB6C2F623194435009F6003 /* Proxima Nova Regular.otf in Resources */,
+				CAB6C2F023194435009F6003 /* Proxima Nova Alt Thin.otf in Resources */,
+				CABA782023141ED40016B551 /* LaunchScreen.storyboard in Resources */,
+				CAB6C2F723194435009F6003 /* Proxima Nova Thin.otf in Resources */,
+				CAB6C2F323194435009F6003 /* Proxima Nova Alt Light.otf in Resources */,
+				CABA781D23141ED40016B551 /* Assets.xcassets in Resources */,
+				CABA781B23141ECF0016B551 /* Main.storyboard in Resources */,
+				CAB6C2F223194435009F6003 /* Proxima Nova Extrabold.otf in Resources */,
+				CAB6C2F423194435009F6003 /* Proxima Nova Black.otf in Resources */,
+				CAB6C2F123194435009F6003 /* Proxima Nova Alt Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CABA780E23141ECF0016B551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABA781823141ECF0016B551 /* ViewController.swift in Sources */,
+				CAD8BBE123144CAE00A85174 /* DDSConfig.swift in Sources */,
+				CAF14F4A2317F2D500E853FD /* UserDefaults.swift in Sources */,
+				CAB6C2E323193DCE009F6003 /* Button.swift in Sources */,
+				CAB6C2E1231938CF009F6003 /* UIView.swift in Sources */,
+				CAD8BBDB23142E4000A85174 /* NSNotificationName.swift in Sources */,
+				CABA781623141ECF0016B551 /* AppDelegate.swift in Sources */,
+				CAA9418F233220FD0004982D /* DDSResult.swift in Sources */,
+				CAB6C2F923194963009F6003 /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CABA781923141ECF0016B551 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CABA781A23141ECF0016B551 /* Base */,
+				CAED6BA4231E6C64006852F3 /* en */,
+				CAED6BA5231E6C6F006852F3 /* ru */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CABA781E23141ED40016B551 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CABA781F23141ED40016B551 /* Base */,
+				CAED6BA6231E6C6F006852F3 /* ru */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CABA782223141ED40016B551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CABA782323141ED40016B551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CABA782523141ED40016B551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WelltoryDDSDemo/WelltoryDDSDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MMPP2NZU96;
+				INFOPLIST_FILE = WelltoryDDSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.welltory.dds.demo.WelltoryDDSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CABA782623141ED40016B551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WelltoryDDSDemo/WelltoryDDSDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MMPP2NZU96;
+				INFOPLIST_FILE = WelltoryDDSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.welltory.dds.demo.WelltoryDDSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CABA780D23141ECF0016B551 /* Build configuration list for PBXProject "WelltoryDDSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABA782223141ED40016B551 /* Debug */,
+				CABA782323141ED40016B551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABA782423141ED40016B551 /* Build configuration list for PBXNativeTarget "WelltoryDDSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABA782523141ED40016B551 /* Debug */,
+				CABA782623141ED40016B551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CABA780A23141ECF0016B551 /* Project object */;
+}
