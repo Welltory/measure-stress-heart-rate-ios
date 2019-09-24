@@ -1,5 +1,10 @@
 # Welltory Integration iOS Demo
 
+<p>
+  <img src="/screens/Frame.png?raw=true" alt="Welltory flow">
+</p>
+
+
 ### Table of Contents
 1. [How to install](#install)
    1. [Requirements](#requirements)
@@ -48,22 +53,22 @@ No additional tools required.
 
 1. In the DDS Demo application press "Measure now" button to start measurement
 <p>
-  <img src="/screens/screen_1.png?raw=true" width="200" alt="accessibility text">
+  <img src="/screens/screen_1.png?raw=true" width="200" alt="Measure now">
 </p>
 
 2. Welltory application will launch and automatically starts a measurement
 <p>
-    <img src="/screens/screen_2.png?raw=true" width="200" alt="accessibility text">
+    <img src="/screens/screen_2.png?raw=true" width="200" alt="Measurement process">
 </p>
 
 3. After measurement complete, results sharing window will appeare
 <p>
-  <img src="/screens/screen_3.png?raw=true" width="200" alt="accessibility text">
+  <img src="/screens/screen_3.png?raw=true" width="200" alt="Measurement result">
 </p>
 
 4. After user presses "ok, let's do it" button measurement results and user controll pull back to the DDS application
 <p>
-  <img src="/screens/screen_4.png?raw=true" width="200" alt="accessibility text">
+  <img src="/screens/screen_4.png?raw=true" width="200" alt="Presenting result">
 </p>
 
 
