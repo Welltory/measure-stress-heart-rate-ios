@@ -2,10 +2,16 @@
 
 ### Table of Contents
 1. [How to install](#install)
+1.1. [Requirements](#requirements)
+1.2. [Installation guide](#guide)
 2. [Example usage](#usage)
 3. [Integration](#integration)
 4. [Measurement request](#request)
+4.1. [Measurement request link](#link)
+4.2. [Measurement request parameters] (#request_parameters)
 5. [Stress results overview](#result)
+5.1. [Configure your app to add it the list of approved domains](#configure_domain)
+5.2. [Configure your website to host the 'apple-app-site-association' file](#configure_aasa)
 6. [Stress results processing](#result_processing)
 7. [Demo Applications](#demo)
 8. [Questions](#questions)
@@ -23,7 +29,7 @@ Participating in Welltory partnership program allows you to collect that data to
 
 # How to install <a name="install"></a>
 
-### Requirements:
+### Requirements: <a name="requirements"></a>
 
 
 * XCode 10.0 or later
@@ -31,7 +37,7 @@ Participating in Welltory partnership program allows you to collect that data to
 
 No additional tools required.
 
-### Installation guide:
+### Installation guide: <a name="guide"></a>
 
 
 * Clone the repository using ``` git clone https://github.com/Welltory/Welltory-DDS-Demo.git ```
@@ -74,7 +80,7 @@ Please contact our support team if you have any questions [Welltory Help Center]
 
 To start a measurement you should launch a specific universal link.
 
-### Measurement request link
+### Measurement request link <a name="link"></a>
 
 
 For the very first measurement from your application, launch this link: **https://welltory.onelink.me/2180424117/bf497b9**.
@@ -82,7 +88,7 @@ It will take the user to the measurement screen in case Welltory is installed, o
 
 Every following measurement request should be done using direct Welltory link: **https://welltory.com/action/dds/measurement**
 
-### Measurement request parameters
+### Measurement request parameters <a name="request_parameters"></a>
 
 
 Every time your application requests a measurement, it should send out the following url parameters:
@@ -136,13 +142,13 @@ Callback example: https://demoapp.com/dds/?stress=0.32&energy=0.75&productivity=
 
 To receive measurement results, your app should support Universal links.
 
-### Configure your app to add it the list of approved domains:
+### Configure your app to add it the list of approved domains: <a name="configure_domain"></a>
 
 1. Register your app at developer.apple.com
 2. Enable ‘Associated Domains’ on your app identifier *(Go your Apple developer account -> Certificates, Identifiers & Profiles -> Identifiers. Select your application identifier and turn on 'Associated Domains')*
 3. Enable ‘Associated Domain’ on in your Xcode project *(Open XCode project configuration, select a project target, Add a capability 'Associated Domains', Press '+' and add your domain ex: 'mydomain.com' )*
 
-### Configure your website to host the 'apple-app-site-association' file
+### Configure your website to host the 'apple-app-site-association' file <a name="configure_aasa"></a>
 
 The AASA (short for apple-app-site-association) is a file that lives on your website and associates your website domain with your native app.
 The AASA file contains a JSON object with a list of apps and the URL paths on the domain that should be included or excluded as Universal Links. Here is a sample AASA file:
