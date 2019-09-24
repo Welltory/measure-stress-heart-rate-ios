@@ -1,26 +1,50 @@
-Welltory DDS
-====================
+# Welltory Integration iOS Demo
 
-Welltory partnership program calculates stress by measuring user’s HRV and allows to share the results in your app.
+### Table of Contents
+1. [How to install](#install)
+   1. [Requirements](#requirements)
+   2. [Installation guide](#guide)
+2. [Example usage](#usage)
+3. [Integration](#integration)
+4. [Measurement request](#request)
+   1. [Measurement request link](#link)
+   2. [Measurement request parameters](#request_parameters)
+5. [Stress results overview](#result)
+   1. [Configure your app to add it the list of approved domains](#configure_domain)
+   2. [Configure your website to host the 'apple-app-site-association' file](#configure_aasa)
+6. [Stress results processing](#result_processing)
+7. [Demo Applications](#demo)
+8. [Questions](#questions)
+9. [License and author info](#license)
 
-# How to install #
 
-Requirements:
--------
+Wellory is an app that measures people’s HRV to calculate their stress and energy levels.
+Participating in Welltory partnership program allows you to collect that data to display one or more of the following parameters and share them:
+- stress
+- energy
+- productivity
+- rmssd index
+- sdnn index
+- power index
+
+# How to install <a name="install"></a>
+
+### Requirements: <a name="requirements"></a>
+
 
 * XCode 10.0 or later
 * Swift 4.2 or later
 
 No additional tools required.
 
-Installation guide:
--------
+### Installation guide: <a name="guide"></a>
+
 
 * Clone the repository using ``` git clone https://github.com/Welltory/Welltory-DDS-Demo.git ```
 * Open *WelltoryDDSDemo.xcodeproj* file with the XCode 10.0+
 * Run the project
 
-# Example usage #
+# Example usage <a name="usage"></a>
 
 1. In the DDS Demo application press "Measure now" button to start measurement
 <p>
@@ -43,7 +67,7 @@ Installation guide:
 </p>
 
 
-# Integration #
+# Integration <a name="integration"></a>
 
 Welltory doesn't provide any integration SDKs, all applications interaction are performed with universal links. [Universal links Apple](https://developer.apple.com/ios/universal-links/)
 
@@ -52,20 +76,20 @@ Welltory doesn't provide any integration SDKs, all applications interaction are 
 Please contact our support team if you have any questions [Welltory Help Center](https://support.welltory.com/content).
 
 
-# Measurement request #
+# Measurement request <a name="request"></a>
 
 To start a measurement you should launch a specific universal link.
 
-Measurement request link
----------
+### Measurement request link <a name="link"></a>
+
 
 For the very first measurement from your application, launch this link: **https://welltory.onelink.me/2180424117/bf497b9**.
 It will take the user to the measurement screen in case Welltory is installed, or redirect them to App Store to install it.
 
 Every following measurement request should be done using direct Welltory link: **https://welltory.com/action/dds/measurement**
 
-Measurement request parameters
----------
+### Measurement request parameters <a name="request_parameters"></a>
+
 
 Every time your application requests a measurement, it should send out the following url parameters:
 
@@ -87,7 +111,7 @@ UIApplication.shared.open(url, options: [:])
 ```
 
 
-# Stress results overview #
+# Stress results overview <a name="result"></a>
 
 After the user data has been processed, Welltory application it will use your **callback** url to send measurement results to your application.
 Welltory will append the following parameters to your callback url:
@@ -95,7 +119,7 @@ Welltory will append the following parameters to your callback url:
 
 | name | type | description |
 | ------ | ------ | ------ |
-| stress | Float (0.0 - 1.0) | user's stress % |
+| stress | Float&nbsp;(0.0&nbsp;-&nbsp;1.0) | user's stress % |
 | energy | Float (0.0 - 1.0) | user's energy % |
 | productivity | Float (0.0 - 1.0) | user's productivity % |
 | rmssd | Float | user's rmssd index |
@@ -114,18 +138,18 @@ Colours:
 
 Callback example: https://demoapp.com/dds/?stress=0.32&energy=0.75&productivity=0.63&rmssd=90.3&sdnn=45.1&power=100&stress_c=green&productivity_c=red&energy_c=yellow
 
-# Stress results processing #
+# Stress results processing <a name="result_processing"></a>
 
 To receive measurement results, your app should support Universal links.
 
-Configure your app to add it the list of approved domains:
-------------
+### Configure your app to add it the list of approved domains: <a name="configure_domain"></a>
+
 1. Register your app at developer.apple.com
 2. Enable ‘Associated Domains’ on your app identifier *(Go your Apple developer account -> Certificates, Identifiers & Profiles -> Identifiers. Select your application identifier and turn on 'Associated Domains')*
 3. Enable ‘Associated Domain’ on in your Xcode project *(Open XCode project configuration, select a project target, Add a capability 'Associated Domains', Press '+' and add your domain ex: 'mydomain.com' )*
 
-Configure your website to host the ‘apple-app-site-association’ file
-------------
+### Configure your website to host the 'apple-app-site-association' file <a name="configure_aasa"></a>
+
 The AASA (short for apple-app-site-association) is a file that lives on your website and associates your website domain with your native app.
 The AASA file contains a JSON object with a list of apps and the URL paths on the domain that should be included or excluded as Universal Links. Here is a sample AASA file:
 
@@ -135,7 +159,7 @@ The AASA file contains a JSON object with a list of apps and the URL paths on th
     "apps": [],
     "details": [
       {
-        "appID": “JHGFJHHYX.com.yourapp.bundle",
+        "appID": "JHGFJHHYX.com.yourapp.bundle",
         "paths": [
           "*"
         ]
@@ -170,21 +194,21 @@ After you have configured config universal links, you can catch callback url wit
     }
 ```
 
-# Demo Applications #
+# Demo Applications <a name="demo"></a>
 This repository contains a working Demo DDS application.
 
 
-# Questions? #
+# Questions? <a name="questions"></a>
 If you have questions about the partnership, please visit our help center [Welltory Help Center](https://support.welltory.com/content).
 
-# License and author info #
+# License and author info <a name="license"></a>
 
 ```
-Amplitude
+Welltory Integration iOS Demo
 
 The MIT License (MIT)
 
-Copyright (c) 2014 Amplitude
+Copyright (c) 2019 Welltory Integration iOS Demo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
