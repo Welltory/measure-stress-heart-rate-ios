@@ -47,12 +47,12 @@ class ResultViewController: UIViewController {
         updateData()
     }
     
-    ///MARK User actions
+    //MARK: User actions
     @IBAction func actionRequestMeasurement(_ sender: Any) {
         guard let url = URL(string: String(format: "%@?source=%@&callback=%@",
-                                           DDSCofig.measurementLink,
-                                           DDSCofig.appName,
-                                           DDSCofig.callbackUrl)) else { return }
+                                           DDSConfig.measurementLink,
+                                           DDSConfig.appName,
+                                           DDSConfig.callbackUrl)) else { return }
         
         UIApplication.shared.open(url, options: [:])
     }

@@ -34,42 +34,20 @@ class ViewController: UIViewController {
     ///MARK User actions
     @IBAction func actionRequestMeasurement(_ sender: Any) {
         guard let url = URL(string: String(format: "%@?source=%@&callback=%@",
-                                           DDSCofig.measurementLink,
-                                           DDSCofig.appName,
-                                           DDSCofig.callbackUrl)) else { return }
+                                           DDSConfig.measurementLink,
+                                           DDSConfig.appName,
+                                           DDSConfig.callbackUrl)) else { return }
         
         UIApplication.shared.open(url, options: [:])
     }
     
     
     
-    ///MARK Navigation
+    //MARK: Navigation
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let resultViewController = segue.destination as? ResultViewController else { return }
         resultViewController.result = result
     }
     
-}
-
-
-extension UIView {
-    func setAnchorPoint(_ point: CGPoint) {
-        var newPoint = CGPoint(x: bounds.size.width * point.x, y: bounds.size.height * point.y)
-        var oldPoint = CGPoint(x: bounds.size.width * layer.anchorPoint.x, y: bounds.size.height * layer.anchorPoint.y);
-        
-        newPoint = newPoint.applying(transform)
-        oldPoint = oldPoint.applying(transform)
-        
-        var position = layer.position
-        
-        position.x -= oldPoint.x
-        position.x += newPoint.x
-        
-        position.y -= oldPoint.y
-        position.y += newPoint.y
-        
-        layer.position = position
-        layer.anchorPoint = point
-    }
 }

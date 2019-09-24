@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct DDSCofig {
+struct DDSConfig {
     
     private static let firstMeasurementLink     = "https://welltory.onelink.me/2180424117/bf497b9"
     private static let recurrentMeasurementLink = "https://welltory.com/action/dds/measurement"
