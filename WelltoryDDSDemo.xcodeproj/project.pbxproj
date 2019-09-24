@@ -52,8 +52,6 @@
 		CAD8BBDA23142E4000A85174 /* NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationName.swift; sourceTree = "<group>"; };
 		CAD8BBE023144CAE00A85174 /* DDSConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDSConfig.swift; sourceTree = "<group>"; };
 		CAED6BA4231E6C64006852F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		CAED6BA5231E6C6F006852F3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
-		CAED6BA6231E6C6F006852F3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		CAF14F492317F2D500E853FD /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -178,7 +176,6 @@
 			knownRegions = (
 				en,
 				Base,
-				ru,
 			);
 			mainGroup = CABA780923141ECF0016B551;
 			productRefGroup = CABA781323141ECF0016B551 /* Products */;
@@ -236,7 +233,6 @@
 			children = (
 				CABA781A23141ECF0016B551 /* Base */,
 				CAED6BA4231E6C64006852F3 /* en */,
-				CAED6BA5231E6C6F006852F3 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -245,7 +241,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				CABA781F23141ED40016B551 /* Base */,
-				CAED6BA6231E6C6F006852F3 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

@@ -1,32 +1,22 @@
 
-/* Class = "UILabel"; text = "Это хороший стресс."; ObjectID = "0o6-zJ-ddL"; */
 "0o6-zJ-ddL.text" = "This is good stress";
 
-/* Class = "UILabel"; text = "Хронический стресс негативно влияет на качество жизни. Чтобы бороться с этой проблемой, нам нужно понять ее масштабы. Спасибо, что поучаствовали в тестировании новой функции."; ObjectID = "0xv-yW-dAx"; */
 "0xv-yW-dAx.text" = "Chronic stress has negative effects on your health. Your participation helps us to evaluate the scope of the problem. Thanks for using our new feature.";
 
-/* Class = "UILabel"; text = "Что дальше?"; ObjectID = "16j-hM-tqV"; */
 "16j-hM-tqV.text" = "What’s next?";
 
-/* Class = "UIButton"; normalTitle = "Сделать замер"; ObjectID = "3yd-Ih-Giy"; */
 "3yd-Ih-Giy.normalTitle" = "Measure now";
 
-/* Class = "UILabel"; text = "Стресс"; ObjectID = "Htq-kr-Th7"; */
 "Htq-kr-Th7.text" = "Stress";
 
-/* Class = "UILabel"; text = "Приложение #1 для измерения стресса"; ObjectID = "QKx-hr-NRO"; */
-"QKx-hr-NRO.text" = " #1 Stress Measurement App";
+"QKx-hr-NRO.text" = "#1 Stress Measurement App";
 
-/* Class = "UILabel"; text = "Измерь свой уровень стресса"; ObjectID = "TFU-Z7-apP"; */
 "TFU-Z7-apP.text" = "Track your stress";
 
-/* Class = "UIButton"; normalTitle = "ДЕТАЛИ"; ObjectID = "gSz-hL-Wmo"; */
 "gSz-hL-Wmo.normalTitle" = "DETAILS";
 
-/* Class = "UILabel"; text = "Мы запускаем новую функцию измерения стресса, чтобы вы могли оценить, насколько рабочая нагрузка соответствует вашим возможностям."; ObjectID = "hfw-nZ-Lzj"; */
 "hfw-nZ-Lzj.text" = "This new feature allows you to measure your stress levels so you can make informed decisions about how to improve your work performance.";
 
-/* Class = "UILabel"; text = "88%"; ObjectID = "sTA-vn-md8"; */
 "sTA-vn-md8.text" = "88%";
 
 "xfR-CL-MwF.text" = "Energy";

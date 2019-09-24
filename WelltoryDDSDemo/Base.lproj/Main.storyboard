@@ -24,21 +24,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Измерь свой уровень стресса" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TFU-Z7-apP">
-                                <rect key="frame" x="16" y="100" width="382" height="66"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Track your stress" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TFU-Z7-apP">
+                                <rect key="frame" x="16" y="100" width="382" height="33"/>
                                 <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="27"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hfw-nZ-Lzj">
-                                <rect key="frame" x="16" y="178" width="382" height="58.5"/>
-                                <string key="text">Мы запускаем новую функцию измерения стресса, чтобы вы могли оценить, насколько рабочая нагрузка соответствует вашим возможностям.</string>
+                                <rect key="frame" x="16" y="145" width="382" height="58.5"/>
+                                <string key="text">This new feature allows you to measure your stress levels so you can make informed decisions about how to improve your work performance.</string>
                                 <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RrE-uj-b6q">
-                                <rect key="frame" x="16" y="268.5" width="382" height="320"/>
+                                <rect key="frame" x="16" y="235.5" width="382" height="320"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WatchHolder" translatesAutoresizingMaskIntoConstraints="NO" id="Lfx-8v-Ao7">
                                         <rect key="frame" x="0.0" y="23" width="382" height="200"/>
@@ -46,7 +46,7 @@
                                             <constraint firstAttribute="height" constant="200" id="N8m-vu-K0H"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Приложение #1 для измерения стресса" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QKx-hr-NRO">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#1 Stress Measurement App" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QKx-hr-NRO">
                                         <rect key="frame" x="0.0" y="183" width="382" height="49"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="49" id="nOv-tn-CYm"/>
@@ -62,7 +62,7 @@
                                             <constraint firstAttribute="height" constant="38" id="eNM-aj-Lty"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="14"/>
-                                        <state key="normal" title="Сделать замер">
+                                        <state key="normal" title="Measure now">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -134,15 +134,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Что дальше?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="16j-hM-tqV">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What’s next?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="16j-hM-tqV">
                                 <rect key="frame" x="16" y="342" width="382" height="33"/>
                                 <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="27"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0xv-yW-dAx">
-                                <rect key="frame" x="16" y="381" width="382" height="78"/>
-                                <string key="text">Хронический стресс негативно влияет на качество жизни. Чтобы бороться с этой проблемой, нам нужно понять ее масштабы. Спасибо, что поучаствовали в тестировании новой функции.</string>
+                                <rect key="frame" x="16" y="381" width="382" height="58.5"/>
+                                <string key="text">Chronic stress has negative effects on your health. Your participation helps us to evaluate the scope of the problem. Thanks for using our new feature.</string>
                                 <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -165,12 +165,12 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gSz-hL-Wmo">
-                                        <rect key="frame" x="324" y="243" width="44" height="17"/>
+                                        <rect key="frame" x="325" y="243" width="43" height="17"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="17" id="MjC-0t-Hde"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="11"/>
-                                        <state key="normal" title="ДЕТАЛИ">
+                                        <state key="normal" title="DETAILS">
                                             <color key="titleColor" red="0.75294117647058822" green="0.76470588235294112" blue="0.80392156862745101" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
@@ -213,8 +213,8 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Это хороший стресс." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0o6-zJ-ddL">
-                                        <rect key="frame" x="124.5" y="144" width="133" height="0.0"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is good stress" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0o6-zJ-ddL">
+                                        <rect key="frame" x="134" y="140" width="114.5" height="17.5"/>
                                         <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -225,7 +225,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f53-gF-8gz">
                                                 <rect key="frame" x="0.0" y="0.0" width="88.5" height="54"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Энергия" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xfR-CL-MwF">
+                                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Energy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xfR-CL-MwF">
                                                         <rect key="frame" x="4" y="10" width="80.5" height="13"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="13" id="MjG-CO-aye"/>
@@ -255,7 +255,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yru-tB-tnu">
                                                 <rect key="frame" x="88.5" y="0.0" width="88.5" height="54"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Продуктивность" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="STa-ZH-F5P">
+                                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Productivity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="STa-ZH-F5P">
                                                         <rect key="frame" x="4" y="10" width="80.5" height="13"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="13" id="qvU-S4-57H"/>
@@ -354,8 +354,8 @@
                                             <constraint firstAttribute="height" constant="1" id="mo2-Pl-jRN"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Стресс" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Htq-kr-Th7">
-                                        <rect key="frame" x="158.5" y="82.5" width="65.5" height="24.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stress" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Htq-kr-Th7">
+                                        <rect key="frame" x="163" y="82.5" width="56" height="24.5"/>
                                         <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -372,18 +372,18 @@
                                     <constraint firstItem="sTA-vn-md8" firstAttribute="top" secondItem="Uty-4g-Rqf" secondAttribute="bottom" constant="-2.5" id="A0W-iu-PqT"/>
                                     <constraint firstItem="gSz-hL-Wmo" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="gZL-pa-86U" secondAttribute="leading" constant="20" symbolic="YES" id="A7q-eg-kuC"/>
                                     <constraint firstItem="Uty-4g-Rqf" firstAttribute="centerY" secondItem="MiD-Md-xXA" secondAttribute="centerY" id="ABn-gk-v6b"/>
-                                    <constraint firstItem="iQL-bH-I3E" firstAttribute="top" secondItem="0o6-zJ-ddL" secondAttribute="bottom" constant="30" id="DIQ-In-1Co"/>
                                     <constraint firstItem="Uty-4g-Rqf" firstAttribute="centerX" secondItem="MiD-Md-xXA" secondAttribute="centerX" id="DZR-NB-dMc"/>
                                     <constraint firstItem="0o6-zJ-ddL" firstAttribute="centerX" secondItem="gZL-pa-86U" secondAttribute="centerX" id="Dco-9H-x7v"/>
                                     <constraint firstAttribute="trailing" secondItem="iQL-bH-I3E" secondAttribute="trailing" constant="14" id="HT7-39-h0w"/>
                                     <constraint firstAttribute="trailing" secondItem="PhQ-BP-QhK" secondAttribute="trailing" constant="14" id="LD1-zN-dPj"/>
                                     <constraint firstItem="MiD-Md-xXA" firstAttribute="centerX" secondItem="gZL-pa-86U" secondAttribute="centerX" id="MYB-7Y-4ig"/>
                                     <constraint firstItem="Htq-kr-Th7" firstAttribute="centerX" secondItem="73P-RU-WUr" secondAttribute="centerX" id="VWQ-Kl-CgT"/>
+                                    <constraint firstItem="iQL-bH-I3E" firstAttribute="top" secondItem="0o6-zJ-ddL" secondAttribute="bottom" constant="16.5" id="WFs-co-5Hl"/>
                                     <constraint firstItem="73P-RU-WUr" firstAttribute="top" secondItem="Htq-kr-Th7" secondAttribute="bottom" constant="4" id="bPf-P3-XcX"/>
                                     <constraint firstAttribute="trailing" secondItem="gSz-hL-Wmo" secondAttribute="trailing" constant="14" id="cb4-CE-GtB"/>
                                     <constraint firstItem="73P-RU-WUr" firstAttribute="centerX" secondItem="gZL-pa-86U" secondAttribute="centerX" id="de3-m9-qgA"/>
                                     <constraint firstItem="jX4-jB-5Fj" firstAttribute="leading" secondItem="gZL-pa-86U" secondAttribute="leading" constant="14" id="drw-uc-GeW"/>
-                                    <constraint firstItem="0o6-zJ-ddL" firstAttribute="top" secondItem="73P-RU-WUr" secondAttribute="bottom" constant="12" id="iy8-0L-sud"/>
+                                    <constraint firstItem="0o6-zJ-ddL" firstAttribute="top" secondItem="73P-RU-WUr" secondAttribute="bottom" constant="8" symbolic="YES" id="iy8-0L-sud"/>
                                     <constraint firstItem="MiD-Md-xXA" firstAttribute="top" secondItem="gZL-pa-86U" secondAttribute="top" constant="40" id="jIS-2O-yMb"/>
                                     <constraint firstItem="PhQ-BP-QhK" firstAttribute="top" secondItem="gZL-pa-86U" secondAttribute="top" constant="16" id="p1Y-3s-EsI"/>
                                     <constraint firstItem="omP-Vo-FLb" firstAttribute="leading" secondItem="gZL-pa-86U" secondAttribute="leading" constant="14" id="pln-I1-MfU"/>
@@ -396,13 +396,13 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cTP-oe-B24" customClass="GButton" customModule="WelltoryDDSDemo" customModuleProvider="target">
-                                <rect key="frame" x="130.5" y="489" width="153" height="38"/>
+                                <rect key="frame" x="130.5" y="469.5" width="153" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="MTL-dj-deP"/>
                                     <constraint firstAttribute="width" constant="153" id="myP-Xi-b1G"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="14"/>
-                                <state key="normal" title="Сделать замер">
+                                <state key="normal" title="Measure now">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
