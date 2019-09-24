@@ -45,7 +45,7 @@ No additional tools required.
 ### Installation guide: <a name="guide"></a>
 
 
-* Clone the repository using ``` git clone https://github.com/Welltory/Welltory-DDS-Demo.git ```
+* Clone the repository master brunch using ``` git clone https://github.com/Welltory/Welltory-DDS-Demo.git ```
 * Open *WelltoryDDSDemo.xcodeproj* file with the XCode 10.0+
 * Run the project
 
@@ -61,7 +61,7 @@ No additional tools required.
     <img src="/screens/screen_2.png?raw=true" width="200" alt="Measurement process">
 </p>
 
-3. After measurement complete, results sharing window will appeare
+3. After measurement complete, results sharing window will appear
 <p>
   <img src="/screens/screen_3.png?raw=true" width="200" alt="Measurement result">
 </p>
@@ -104,6 +104,7 @@ Every time your application requests a measurement, it should send out the follo
 Examples:
 
 First measurement request: https://welltory.onelink.me/2180424117/bf497b9?source=DemoApp&callback=https%3A%2F%2Fwww.demoapp.com%2Fdds%2F
+
 Every following measurement request: https://welltory.com/action/dds/measurement?source=DemoApp&callback=https%3A%2F%2Fwww.demoapp.com%2Fdds%2F
 
 ```swift
@@ -136,10 +137,10 @@ Welltory will append the following parameters to your callback url:
 | stress_c | String | Stress parameter interpretation color |
 
 Colours:
-* green = GreatGood
-* yellow = Normal
-* red = Bad
-* unknown = Unknown
+* green - Good
+* yellow - Normal
+* red - Bad
+* unknown - Unknown
 
 Callback example: https://demoapp.com/dds/?stress=0.32&energy=0.75&productivity=0.63&rmssd=90.3&sdnn=45.1&power=100&stress_c=green&productivity_c=red&energy_c=yellow
 
