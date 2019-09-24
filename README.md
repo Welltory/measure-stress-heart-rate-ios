@@ -1,7 +1,14 @@
 Welltory DDS
 ====================
 
-Welltory partnership program calculates stress by measuring user’s HRV and allows to share the results in your app.
+Wellory is an app that measures people’s HRV to calculate their stress and energy levels.
+Participating in Welltory partnership program allows you to collect that data to display one or more of the following parameters and share them:
+- stress
+- energy
+- productivity
+- rmssd index
+- sdnn index
+- power index
 
 # How to install #
 
