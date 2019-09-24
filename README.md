@@ -3,6 +3,46 @@ Welltory DDS
 
 Welltory partnership program calculates stress by measuring user’s HRV and allows to share the results in your app.
 
+# How to install #
+
+Requirements:
+-------
+
+* XCode 10.0 or later
+* Swift 4.2 or later
+
+No additional tools required.
+
+Installation guide:
+-------
+
+* Clone the repository using ``` git clone https://github.com/Welltory/Welltory-DDS-Demo.git ```
+* Open *WelltoryDDSDemo.xcodeproj* file with the XCode 10.0+
+* Run the project
+
+# Example usage #
+
+1. In the DDS Demo application press "Measure now" button to start measurement
+<p>
+  <img src="/screens/screen_1.png?raw=true" width="200" alt="accessibility text">
+</p>
+
+2. Welltory application will launch and automatically starts a measurement
+<p>
+    <img src="/screens/screen_2.png?raw=true" width="200" alt="accessibility text">
+</p>
+
+3. After measurement complete, results sharing window will appeare
+<p>
+  <img src="/screens/screen_3.png?raw=true" width="200" alt="accessibility text">
+</p>
+
+4. After user presses "ok, let's do it" button measurement results and user controll pull back to the DDS application
+<p>
+  <img src="/screens/screen_4.png?raw=true" width="200" alt="accessibility text">
+</p>
+
+
 # Integration #
 
 Welltory doesn't provide any integration SDKs, all applications interaction are performed with universal links. [Universal links Apple](https://developer.apple.com/ios/universal-links/)
@@ -136,3 +176,31 @@ This repository contains a working Demo DDS application.
 
 # Questions? #
 If you have questions about the partnership, please visit our help center [Welltory Help Center](https://support.welltory.com/content).
+
+# License and author info #
+
+```
+Amplitude
+
+The MIT License (MIT)
+
+Copyright (c) 2014 Amplitude
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+```
