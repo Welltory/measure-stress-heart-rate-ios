@@ -27,18 +27,7 @@ class ViewController: UIViewController {
     }
     
     private func updateMeasurementView(parameters: [AnyHashable: Any]) {
-        guard let stress    = Float(parameters["stress"] as? String ?? "")
-            , let energy    = Float(parameters["energy"] as? String ?? "")
-            , let prod      = Float(parameters["productivity"] as? String ?? "")
-            , let rmssd     = Float(parameters["rmssd"] as? String ?? "")
-            , let sdnn      = Float(parameters["sdnn"] as? String ?? "")
-            , let power     = Float(parameters["power"] as? String ?? "")
-            , let quality   = Float(parameters["measurement_quality"] as? String ?? "")
-        else {
-            return
-        }
-        
-        result = DDSResult(stress: stress, energy: energy, productivity: prod, rmssd: rmssd, sdnn: sdnn, power: power, quality: quality)
+        result = DDSResult(parameters: parameters)
         performSegue(withIdentifier: "ShowResult", sender: self)
     }
 

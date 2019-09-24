@@ -16,7 +16,8 @@ class ResultViewController: UIViewController {
     @IBOutlet weak var productivityLabel: UILabel!
     @IBOutlet weak var rmssdLabel: UILabel!
     @IBOutlet weak var sdnnLabel: UILabel!
-        
+    @IBOutlet weak var stressHolderView: UIView!
+    
     var result: DDSResult?
     
     override func viewWillAppear(_ animated: Bool) {
@@ -38,21 +39,11 @@ class ResultViewController: UIViewController {
         productivityLabel.text  = String(format: "%.0f%@", result.productivity * 100, "%")
         rmssdLabel.text         = String(format: "%.0f%@", result.rmssd, " ms")
         sdnnLabel.text          = String(format: "%.0f%@", result.sdnn, " ms")
+        stressHolderView.backgroundColor = result.stressColor.toUIColor()
     }
     
     private func updateMeasurementView(parameters: [AnyHashable: Any]) {
-        guard let stress    = Float(parameters["stress"] as? String ?? "")
-            , let energy    = Float(parameters["energy"] as? String ?? "")
-            , let prod      = Float(parameters["productivity"] as? String ?? "")
-            , let rmssd     = Float(parameters["rmssd"] as? String ?? "")
-            , let sdnn      = Float(parameters["sdnn"] as? String ?? "")
-            , let power     = Float(parameters["power"] as? String ?? "")
-            , let quality   = Float(parameters["measurement_quality"] as? String ?? "")
-            else {
-                return
-        }
-        
-        result = DDSResult(stress: stress, energy: energy, productivity: prod, rmssd: rmssd, sdnn: sdnn, power: power, quality: quality)
+        result = DDSResult(parameters: parameters)                
         updateData()
     }
     
@@ -62,6 +53,15 @@ class ResultViewController: UIViewController {
                                            DDSCofig.measurementLink,
                                            DDSCofig.appName,
                                            DDSCofig.callbackUrl)) else { return }
+        
+        UIApplication.shared.open(url, options: [:])
+    }
+    
+    @IBAction func actionShare(_ sender: Any) {
+        guard let result = result
+            , let token = result.token
+            , let url = URL(string: String(format: "https://app.welltory.com/share-measurement?token=%@", token))
+        else { return }
         
         UIApplication.shared.open(url, options: [:])
     }
