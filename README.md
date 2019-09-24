@@ -1,4 +1,4 @@
-Welltory DDS
+Welltory Integration Demo
 ====================
 
 Wellory is an app that measures people’s HRV to calculate their stress and energy levels.
@@ -102,7 +102,7 @@ Welltory will append the following parameters to your callback url:
 
 | name | type | description |
 | ------ | ------ | ------ |
-| stress | Float (0.0 - 1.0) | user's stress % |
+| stress | Float&nbsp;(0.0&nbsp;-&nbsp;1.0) | user's stress % |
 | energy | Float (0.0 - 1.0) | user's energy % |
 | productivity | Float (0.0 - 1.0) | user's productivity % |
 | rmssd | Float | user's rmssd index |
