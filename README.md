@@ -4,6 +4,14 @@
   <img src="/screens/Frame.png?raw=true" alt="Welltory flow">
 </p>
 
+Welltory-DDS-Demo application is a demonstration of a technical implementation of Welltory measurement integration.
+
+It contains:
+* Recommended screen designs
+* Example of the first measurement request
+* Example of following measurement requests
+* Example of measurement response processing
+* Example of measurement response visualization and sharing
 
 ### Table of Contents
 1. [How to install](#install)
