@@ -4,14 +4,11 @@
   <img src="/screens/Frame.png?raw=true" alt="Welltory flow">
 </p>
 
-Welltory-DDS-Demo application is a demonstration of a technical implementation of Welltory measurement integration.
+This demo app is intended for people who want to integrate with Welltory app to collect stress, energy and other HRV data about their users.
+Demo app shows how your app can work with Welltory app.
+This integration is free and it’s created to help you add value for your users who use Welltory. [Read more here](#install)
 
-It contains:
-* Recommended screen designs
-* Example of the first measurement request
-* Example of following measurement requests
-* Example of measurement response processing
-* Example of measurement response visualization and sharing
+To become integration partner - [apply here](https://welltory.typeform.com/to/epJ3PR)
 
 ### Table of Contents
 1. [How to install](#install)
@@ -31,14 +28,25 @@ It contains:
 9. [License and author info](#license)
 
 
-Wellory is an app that measures people’s HRV to calculate their stress and energy levels.
-Participating in Welltory partnership program allows you to collect that data to display one or more of the following parameters and share them:
-- stress
-- energy
-- productivity
-- rmssd index
-- sdnn index
-- power index
+Welltory is an app that measures people’s HRV with just a smartphone camera to calculate their stress and energy levels. You can send out users to our app and get them back with measurement results.
+Welltory integration will allow you to collect data of the following parameters:
+
+* Stress (Welltory's proprietary algorithm, trained on millions of measurements)
+* Energy (Welltory's proprietary algorithm, trained on millions of measurements)
+* Productivity index (Welltory's proprietary algorithm, trained on millions of measurements)
+* RMSSD index
+* SDNN index
+* Total power
+
+We made this demo to show you:
+* how the user will be navigated to the App Store,
+* the process of taking a measurement,
+* a request for sharing,
+* the return to the application,
+* an example of the presentation of the results,
+and also the source code of the integration.
+
+Continue reading for installation.
 
 # How to install <a name="install"></a>
 
