@@ -10,23 +10,6 @@ This integration is free and it’s created to help you add value for your users
 
 To become integration partner - [apply here](https://welltory.typeform.com/to/epJ3PR)
 
-### Table of Contents
-1. [How to install](#install)
-   1. [Requirements](#requirements)
-   2. [Installation guide](#guide)
-2. [Example usage](#usage)
-3. [Integration](#integration)
-4. [Measurement request](#request)
-   1. [Measurement request link](#link)
-   2. [Measurement request parameters](#request_parameters)
-5. [Stress results overview](#result)
-   1. [Configure your app to add it the list of approved domains](#configure_domain)
-   2. [Configure your website to host the 'apple-app-site-association' file](#configure_aasa)
-6. [Stress results processing](#result_processing)
-7. [Demo Applications](#demo)
-8. [Questions](#questions)
-9. [License and author info](#license)
-
 
 Welltory is an app that measures people’s HRV with just a smartphone camera to calculate their stress and energy levels. You can send out users to our app and get them back with measurement results.
 Welltory integration will allow you to collect data of the following parameters:
@@ -47,6 +30,23 @@ We made this demo to show you:
 and also the source code of the integration.
 
 Continue reading for installation.
+
+### Table of Contents
+1. [How to install](#install)
+   1. [Requirements](#requirements)
+   2. [Installation guide](#guide)
+2. [Example usage](#usage)
+3. [Integration](#integration)
+4. [Measurement request](#request)
+   1. [Measurement request link](#link)
+   2. [Measurement request parameters](#request_parameters)
+5. [Stress results overview](#result)
+   1. [Configure your app to add it the list of approved domains](#configure_domain)
+   2. [Configure your website to host the 'apple-app-site-association' file](#configure_aasa)
+6. [Stress results processing](#result_processing)
+7. [Demo Applications](#demo)
+8. [Questions](#questions)
+9. [License and author info](#license)
 
 # How to install <a name="install"></a>
 
