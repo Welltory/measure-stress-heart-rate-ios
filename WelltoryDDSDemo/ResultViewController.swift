@@ -23,6 +23,9 @@ class ResultViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+        // Config arrow anchor
+        arrowImageView.layer.anchorPoint = CGPoint(x: 1, y: 0.5)
+        
         NotificationCenter.default.addObserver(forName: .MeasurementDone, object: nil, queue: .main, using: { (notification) in
             guard let parameters = notification.userInfo else { return }
             self.updateMeasurementView(parameters: parameters)
@@ -40,6 +43,7 @@ class ResultViewController: UIViewController {
         rmssdLabel.text         = String(format: "%.0f%@", result.rmssd, " ms")
         sdnnLabel.text          = String(format: "%.0f%@", result.sdnn, " ms")
         stressHolderView.backgroundColor = result.stressColor.toUIColor()
+        rotateArrow(result.stress)
     }
     
     private func updateMeasurementView(parameters: [AnyHashable: Any]) {
@@ -64,6 +68,12 @@ class ResultViewController: UIViewController {
         else { return }
         
         UIApplication.shared.open(url, options: [:])
+    }
+    
+    private func rotateArrow(_ stress: Float) {
+        UIView.animate(withDuration: 0.2, delay: 0.5, options: .curveEaseInOut, animations: {
+            self.arrowImageView.transform = CGAffineTransform.init(rotationAngle: CGFloat(stress * Float.pi))
+        }, completion: nil)
     }
 
 }

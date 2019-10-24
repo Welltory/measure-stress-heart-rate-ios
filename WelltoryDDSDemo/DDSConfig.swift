@@ -14,7 +14,7 @@ struct DDSConfig {
     private static let recurrentMeasurementLink = "https://welltory.com/action/dds/measurement"
     
     
-    public static let appName                   = "Bitrix"
+    public static let appName                   = "DemoApp"
     public static let callbackUrl               = "ddsdemo://Measurement"
     public static var measurementLink: String {
         return UserDefaults.standard.isFirstMeasurement ? firstMeasurementLink : recurrentMeasurementLink

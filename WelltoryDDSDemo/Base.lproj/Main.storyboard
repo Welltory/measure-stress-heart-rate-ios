@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -181,15 +181,8 @@
                                             <constraint firstAttribute="width" constant="140" id="uMu-Ul-Mzj"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="Uty-4g-Rqf">
-                                        <rect key="frame" x="171" y="38.5" width="40" height="75"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="40" id="x82-mW-2Tv"/>
-                                            <constraint firstAttribute="height" constant="75" id="xoT-ug-S2y"/>
-                                        </constraints>
-                                    </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="73P-RU-WUr">
-                                        <rect key="frame" x="163" y="111" width="56" height="21"/>
+                                        <rect key="frame" x="163" y="117.5" width="56" height="21"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="88%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sTA-vn-md8">
                                                 <rect key="frame" x="0.0" y="0.0" width="56" height="21"/>
@@ -214,7 +207,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is good stress" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0o6-zJ-ddL">
-                                        <rect key="frame" x="134" y="140" width="114.5" height="17.5"/>
+                                        <rect key="frame" x="134" y="146.5" width="114.5" height="17.5"/>
                                         <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -355,30 +348,36 @@
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stress" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Htq-kr-Th7">
-                                        <rect key="frame" x="163" y="82.5" width="56" height="24.5"/>
+                                        <rect key="frame" x="163" y="89" width="56" height="24.5"/>
                                         <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="Uty-4g-Rqf">
+                                        <rect key="frame" x="156" y="95" width="70" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="18" id="ZOw-du-jJr"/>
+                                            <constraint firstAttribute="width" constant="70" id="hGV-M3-XUR"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.08235294118" green="0.1019607843" blue="0.1333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="iQL-bH-I3E" firstAttribute="leading" secondItem="gZL-pa-86U" secondAttribute="leading" constant="14" id="0BB-9y-EeH"/>
                                     <constraint firstAttribute="bottom" secondItem="gSz-hL-Wmo" secondAttribute="bottom" constant="8" id="3Zt-RJ-zGo"/>
+                                    <constraint firstItem="Uty-4g-Rqf" firstAttribute="centerX" secondItem="gZL-pa-86U" secondAttribute="centerX" id="4bz-wK-lvP"/>
                                     <constraint firstAttribute="trailing" secondItem="jX4-jB-5Fj" secondAttribute="trailing" constant="14" id="7FZ-G7-qkA"/>
                                     <constraint firstAttribute="height" constant="268" id="95H-CW-ijy"/>
                                     <constraint firstItem="jX4-jB-5Fj" firstAttribute="top" secondItem="iQL-bH-I3E" secondAttribute="bottom" id="9d8-24-IIQ"/>
                                     <constraint firstItem="gSz-hL-Wmo" firstAttribute="top" secondItem="jX4-jB-5Fj" secondAttribute="bottom" constant="14" id="9wa-wY-qW3"/>
-                                    <constraint firstItem="sTA-vn-md8" firstAttribute="top" secondItem="Uty-4g-Rqf" secondAttribute="bottom" constant="-2.5" id="A0W-iu-PqT"/>
                                     <constraint firstItem="gSz-hL-Wmo" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="gZL-pa-86U" secondAttribute="leading" constant="20" symbolic="YES" id="A7q-eg-kuC"/>
-                                    <constraint firstItem="Uty-4g-Rqf" firstAttribute="centerY" secondItem="MiD-Md-xXA" secondAttribute="centerY" id="ABn-gk-v6b"/>
-                                    <constraint firstItem="Uty-4g-Rqf" firstAttribute="centerX" secondItem="MiD-Md-xXA" secondAttribute="centerX" id="DZR-NB-dMc"/>
                                     <constraint firstItem="0o6-zJ-ddL" firstAttribute="centerX" secondItem="gZL-pa-86U" secondAttribute="centerX" id="Dco-9H-x7v"/>
                                     <constraint firstAttribute="trailing" secondItem="iQL-bH-I3E" secondAttribute="trailing" constant="14" id="HT7-39-h0w"/>
+                                    <constraint firstItem="Uty-4g-Rqf" firstAttribute="top" secondItem="gZL-pa-86U" secondAttribute="top" constant="95" id="IfL-1g-Uz2"/>
                                     <constraint firstAttribute="trailing" secondItem="PhQ-BP-QhK" secondAttribute="trailing" constant="14" id="LD1-zN-dPj"/>
                                     <constraint firstItem="MiD-Md-xXA" firstAttribute="centerX" secondItem="gZL-pa-86U" secondAttribute="centerX" id="MYB-7Y-4ig"/>
                                     <constraint firstItem="Htq-kr-Th7" firstAttribute="centerX" secondItem="73P-RU-WUr" secondAttribute="centerX" id="VWQ-Kl-CgT"/>
-                                    <constraint firstItem="iQL-bH-I3E" firstAttribute="top" secondItem="0o6-zJ-ddL" secondAttribute="bottom" constant="16.5" id="WFs-co-5Hl"/>
+                                    <constraint firstItem="iQL-bH-I3E" firstAttribute="top" secondItem="0o6-zJ-ddL" secondAttribute="bottom" constant="10" id="WFs-co-5Hl"/>
                                     <constraint firstItem="73P-RU-WUr" firstAttribute="top" secondItem="Htq-kr-Th7" secondAttribute="bottom" constant="4" id="bPf-P3-XcX"/>
                                     <constraint firstAttribute="trailing" secondItem="gSz-hL-Wmo" secondAttribute="trailing" constant="14" id="cb4-CE-GtB"/>
                                     <constraint firstItem="73P-RU-WUr" firstAttribute="centerX" secondItem="gZL-pa-86U" secondAttribute="centerX" id="de3-m9-qgA"/>
@@ -458,7 +457,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Arrow" width="32" height="79.5"/>
+        <image name="Arrow" width="160" height="35"/>
         <image name="Ellipse" width="134" height="73.5"/>
         <image name="QuestionIcon" width="24" height="24"/>
         <image name="WatchHolder" width="1020" height="615"/>
