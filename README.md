@@ -4,15 +4,12 @@
   <img src="/screens/Frame.png?raw=true" alt="Welltory flow">
 </p>
 
-This demo app is intended for people who want to integrate with Welltory app to collect stress, energy and other HRV data about their users.
-Demo app shows how your app can work with Welltory app.
-This integration is free and it’s created to help you add value for your users who use Welltory. [Read more here](#install)
+This demo app is intended for people who want to integrate with the Welltory app to collect stress, energy, and other HRV data about their users. Demo app shows how your app can work with the Welltory app. This integration is free, and it’s created to help you add value for your users who use Welltory. [Read more here](#install)
 
 To become integration partner - [apply here](https://welltory.typeform.com/to/epJ3PR)
 
 
-Welltory is an app that measures people’s HRV with just a smartphone camera to calculate their stress and energy levels. You can send out users to our app and get them back with measurement results.
-Welltory integration will allow you to collect data of the following parameters:
+Welltory is an app that measures people’s HRV with just a smartphone camera to calculate their stress and energy levels. You can send out users to our app and get them back with measurement results. Welltory integration will allow you to collect data on the following parameters:
 
 * Stress (Welltory's proprietary algorithm, trained on millions of measurements)
 * Energy (Welltory's proprietary algorithm, trained on millions of measurements)
@@ -67,22 +64,22 @@ No additional tools required.
 
 # Example usage <a name="usage"></a>
 
-1. In the DDS Demo application press "Measure now" button to start measurement
+1. In the DDS Demo application press "Measure now" button to start the measurement
 <p>
   <img src="/screens/screen_1.png?raw=true" width="200" alt="Measure now">
 </p>
 
-2. Welltory application will launch and automatically starts a measurement
+2. Welltory will launch and automatically starts the measurement
 <p>
     <img src="/screens/screen_2.png?raw=true" width="200" alt="Measurement process">
 </p>
 
-3. After measurement complete, results sharing window will appear
+3. After the measurement is complete, the results window will appear
 <p>
   <img src="/screens/screen_3.png?raw=true" width="200" alt="Measurement result">
 </p>
 
-4. After user presses "ok, let's do it" button measurement results and user controll pull back to the DDS application
+4. After the user presses "ok, let's do it" button, measurement results and the user controll pull back to the DDS application
 <p>
   <img src="/screens/screen_4.png?raw=true" width="200" alt="Presenting result">
 </p>
@@ -90,38 +87,39 @@ No additional tools required.
 
 # Integration <a name="integration"></a>
 
-Welltory doesn't provide any integration SDKs, all applications interaction are performed with universal links. [Universal links Apple](https://developer.apple.com/ios/universal-links/)
+Welltory doesn’t provide any integration SDKs; all applications interaction are performed with universal links. [Universal links Apple](https://developer.apple.com/ios/universal-links/)
 
 **You should start your integration filling out an [Integration Request Form](https://welltory.typeform.com/to/epJ3PR).**
 
-Please contact our support team if you have any questions [Welltory Help Center](https://support.welltory.com/content).
+Please contact our support team if you have any questions 
+[Welltory Help Center](https://support.welltory.com/content).
 
 
 # Measurement request <a name="request"></a>
 
-To start a measurement you should launch a specific universal link.
+To start the measurement, you should launch a specific universal link.
 
 ### Measurement request link <a name="link"></a>
 
 
 For the very first measurement from your application, launch this link: **https://welltory.onelink.me/2180424117/bf497b9**.
-It will take the user to the measurement screen in case Welltory is installed, or redirect them to App Store to install it.
+It will take the user to the measurement screen in case Welltory is installed, or redirect them to the App Store to install it.
 
-Every following measurement request should be done using direct Welltory link: **https://welltory.com/action/dds/measurement**
+Every subsequent measurement request should be made using direct Welltory link: **https://welltory.com/action/dds/measurement**
 
 ### Measurement request parameters <a name="request_parameters"></a>
 
 
-Every time your application requests a measurement, it should send out the following url parameters:
+Every time your application requests a measurement, it should send out the following URL parameters:
 
-* **source** - your application name (from the [Integration Request Form](https://welltory.typeform.com/to/epJ3PR)). *Is used to verify your application and inform the user that measurement results will be shared with this application.*
-* **callback** - your application callback url (from the [Integration Request Form](https://welltory.typeform.com/to/epJ3PR)). *Is used to verify your application and send back measurement results.*
+* **source** - your application's name (from the [Integration Request Form](https://welltory.typeform.com/to/epJ3PR)). *It's used to verify your application and inform the user that measurement results will be shared with this application.*
+* **callback** - your application callback URL (from the [Integration Request Form](https://welltory.typeform.com/to/epJ3PR)). *Is used to verify your application and send back measurement results.*
 
 Examples:
 
 First measurement request: https://welltory.onelink.me/2180424117/bf497b9?source=DemoApp&callback=https%3A%2F%2Fwww.demoapp.com%2Fdds%2F
 
-Every following measurement request: https://welltory.com/action/dds/measurement?source=DemoApp&callback=https%3A%2F%2Fwww.demoapp.com%2Fdds%2F
+Every subsequent measurement request: https://welltory.com/action/dds/measurement?source=DemoApp&callback=https%3A%2F%2Fwww.demoapp.com%2Fdds%2F
 
 ```swift
 guard let url = URL(string: String(format: "%@?source=%@&callback=%@",
@@ -135,8 +133,8 @@ UIApplication.shared.open(url, options: [:])
 
 # Stress results overview <a name="result"></a>
 
-After the user data has been processed, Welltory application it will use your **callback** url to send measurement results to your application.
-Welltory will append the following parameters to your callback url:
+After the user data has been processed, the Welltory app it will use your **callback** URL to send measurement results to your application.
+Welltory will append the following parameters to your callback URL:
 
 
 | name | type | description |
@@ -147,12 +145,12 @@ Welltory will append the following parameters to your callback url:
 | rmssd | Float | user's rmssd index |
 | sdnn | Float | user's sdnn index |
 | power | Float | user's power index |
-| token | String | Measurement share token. It allows to open a measurement webpage https://app.welltory.com/share-measurement?token=<token> |
-| productivity_c | String | Productivity parameter interpretation color |
-| energy_c | String | Energy parameter interpretation color |
-| stress_c | String | Stress parameter interpretation color |
+| token | String | Measurement share token. It allows to open the measurement's webpage https://app.welltory.com/share-measurement?token=<token> |
+| productivity_c | String | Productivity score interpretation color |
+| energy_c | String | Energy score interpretation color |
+| stress_c | String | Stress score interpretation color |
 
-Colours:
+Colors:
 * green - Good
 * yellow - Normal
 * red - Bad
@@ -172,8 +170,7 @@ To receive measurement results, your app should support Universal links.
 
 ### Configure your website to host the 'apple-app-site-association' file <a name="configure_aasa"></a>
 
-The AASA (short for apple-app-site-association) is a file that lives on your website and associates your website domain with your native app.
-The AASA file contains a JSON object with a list of apps and the URL paths on the domain that should be included or excluded as Universal Links. Here is a sample AASA file:
+The AASA (short for apple-app-site-association) is a file that is located on your website and associates your website domain with your native app. The AASA file contains a JSON object with a list of apps and the URL paths on the domain that should be included or excluded as Universal Links. Here is a sample AASA file:
 
 ```json
 {
@@ -200,7 +197,7 @@ Upload the apple-app-site-association file to your HTTPS web server. You can pla
 `Important: iOS will only attempt to fetch the AASA file over a secure connection (HTTPS).`
 
 
-After you have configured config universal links, you can catch callback url with AppDelegate method:
+After you have configured config universal links, you can catch callback URL with AppDelegate method:
 
 ```swift
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
