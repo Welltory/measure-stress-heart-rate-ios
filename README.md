@@ -103,7 +103,10 @@ To start the measurement, you should launch a specific universal link.
 
 
 For the very first measurement from your application, launch this link: **https://welltory.onelink.me/2180424117/bf497b9**.
-It will take the user to the measurement screen in case Welltory is installed, or redirect them to the App Store to install it.
+It will take the user to the measurement screen in case Welltory is installed, or redirect them to the App Store to install it.\
+`Retargeting limitations: If the user has the Welltory app installed within the last 90 days using the link https://welltory.onelink.me/2180424117/bf497b9, the measurement will not start automatically.`
+
+
 
 Every subsequent measurement request should be made using direct Welltory link: **https://welltory.com/action/dds/measurement**
 
