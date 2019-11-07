@@ -70,6 +70,12 @@ class ResultViewController: UIViewController {
         UIApplication.shared.open(url, options: [:])
     }
     
+    @IBAction func actionHelp(_ sender: Any) {
+        let url = URL(string: "https://support.welltory.com/article/show/68986-how-to-use-your-measurement-results")
+        UIApplication.shared.open(url!, options: [:])
+    }
+    
+    
     private func rotateArrow(_ stress: Float) {
         UIView.animate(withDuration: 0.2, delay: 0.5, options: .curveEaseInOut, animations: {
             self.arrowImageView.transform = CGAffineTransform.init(rotationAngle: CGFloat(stress * Float.pi))

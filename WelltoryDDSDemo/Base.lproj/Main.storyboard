@@ -161,7 +161,7 @@
                                         <rect key="frame" x="344" y="16" width="24" height="24"/>
                                         <state key="normal" image="QuestionIcon"/>
                                         <connections>
-                                            <action selector="actionShare:" destination="7GI-VU-0Uz" eventType="touchUpInside" id="q0Q-to-aCL"/>
+                                            <action selector="actionHelp:" destination="7GI-VU-0Uz" eventType="touchUpInside" id="cKY-1c-moY"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gSz-hL-Wmo">
@@ -173,6 +173,9 @@
                                         <state key="normal" title="DETAILS">
                                             <color key="titleColor" red="0.75294117647058822" green="0.76470588235294112" blue="0.80392156862745101" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="actionShare:" destination="7GI-VU-0Uz" eventType="touchUpInside" id="BDW-JX-gUl"/>
+                                        </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ellipse" translatesAutoresizingMaskIntoConstraints="NO" id="MiD-Md-xXA">
                                         <rect key="frame" x="121" y="40" width="140" height="72"/>

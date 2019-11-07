@@ -1,7 +1,7 @@
 # Welltory Integration iOS Demo
 
 <p>
-  <img src="/screens/Frame.png?raw=true" alt="Welltory flow">
+  <img src="/screens/Frame.jpg?raw=true" alt="Welltory flow">
 </p>
 
 This demo app is intended for people who want to integrate with the Welltory app to collect stress, energy, and other HRV data about their users. Demo app shows how your app can work with the Welltory app. This integration is free, and it’s created to help you add value for your users who use Welltory. [Read more here](#install)
