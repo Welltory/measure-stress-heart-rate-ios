@@ -66,22 +66,22 @@ No additional tools required.
 
 1. In the DDS Demo application press "Measure now" button to start the measurement
 <p>
-  <img src="/screens/screen_1.png?raw=true" width="200" alt="Measure now">
+  <img src="/screens/screen_1.jpg?raw=true" width="200" alt="Measure now">
 </p>
 
 2. Welltory will launch and automatically starts the measurement
 <p>
-    <img src="/screens/screen_2.png?raw=true" width="200" alt="Measurement process">
+    <img src="/screens/screen_2.jpg?raw=true" width="200" alt="Measurement process">
 </p>
 
 3. After the measurement is complete, the results window will appear
 <p>
-  <img src="/screens/screen_3.png?raw=true" width="200" alt="Measurement result">
+  <img src="/screens/screen_3.jpg?raw=true" width="200" alt="Measurement result">
 </p>
 
 4. After the user presses "ok, let's do it" button, measurement results and the user controll pull back to the DDS application
 <p>
-  <img src="/screens/screen_4.png?raw=true" width="200" alt="Presenting result">
+  <img src="/screens/screen_4.jpg?raw=true" width="200" alt="Presenting result">
 </p>
 
 
@@ -91,8 +91,7 @@ Welltory doesn’t provide any integration SDKs; all applications interaction ar
 
 **You should start your integration filling out an [Integration Request Form](https://welltory.typeform.com/to/epJ3PR).**
 
-Please contact our support team if you have any questions 
-[Welltory Help Center](https://support.welltory.com/content).
+Please send us a live chat message [on our website](https://welltory.com/) if you have any questions.
 
 
 # Measurement request <a name="request"></a>
@@ -120,15 +119,15 @@ Every time your application requests a measurement, it should send out the follo
 
 Examples:
 
-First measurement request: https://welltory.onelink.me/2180424117/bf497b9?source=DemoApp&callback=https%3A%2F%2Fwww.demoapp.com%2Fdds%2F
+First measurement request: https://welltory.onelink.me/2180424117/bf497b9?source=YourApp&callback=https%3A%2F%2Fwww.yourapp.com%2Fdds%2F
 
-Every subsequent measurement request: https://welltory.com/action/dds/measurement?source=DemoApp&callback=https%3A%2F%2Fwww.demoapp.com%2Fdds%2F
+Every subsequent measurement request: https://welltory.com/action/dds/measurement?source=YourApp&callback=https%3A%2F%2Fwww.yourapp.com%2Fdds%2F
 
 ```swift
 guard let url = URL(string: String(format: "%@?source=%@&callback=%@",
                                            "https://welltory.onelink.me/2180424117/bf497b9",
-                                           "DemoApp",
-                                           "https%3A%2F%2Fwww.demoapp.com%2Fdds%2F")) else { return }
+                                           "YourApp",
+                                           "https%3A%2F%2Fwww.yourapp.com%2Fdds%2F")) else { return }
 UIApplication.shared.open(url, options: [:])
 
 ```
@@ -159,7 +158,7 @@ Colors:
 * red - Bad
 * unknown - Unknown
 
-Callback example: https://demoapp.com/dds/?stress=0.32&energy=0.75&productivity=0.63&rmssd=90.3&sdnn=45.1&power=100&stress_c=green&productivity_c=red&energy_c=yellow
+Callback example: https://yourapp.com/dds/?stress=0.32&energy=0.75&productivity=0.63&rmssd=90.3&sdnn=45.1&power=100&stress_c=green&productivity_c=red&energy_c=yellow
 
 # Stress results processing <a name="result_processing"></a>
 
@@ -221,7 +220,7 @@ This repository contains a working Demo DDS application.
 
 
 # Questions? <a name="questions"></a>
-If you have questions about the partnership, please visit our help center [Welltory Help Center](https://support.welltory.com/content).
+If you have questions about the partnership, send us a live chat message [on our website](https://welltory.com/).
 
 # License and author info <a name="license"></a>
 
