@@ -101,9 +101,9 @@ To start the measurement, you should launch a specific universal link.
 ### Measurement request link <a name="link"></a>
 
 
-For the very first measurement from your application, launch this link: **https://welltory.onelink.me/2180424117/bf497b9**.
+For the very first measurement from your application, launch the link: **[FIRST_LAUNCH_LINK] - you will receive it after verification**.
 It will take the user to the measurement screen in case Welltory is installed, or redirect them to the App Store to install it.\
-`Retargeting limitations: If the user has the Welltory app installed within the last 90 days using the link https://welltory.onelink.me/2180424117/bf497b9, the measurement will not start automatically.`
+`Retargeting limitations: If the user has the Welltory app installed within the last 90 days using the [FIRST_LAUNCH_LINK] link, the measurement will not start automatically.`
 
 
 
@@ -119,13 +119,13 @@ Every time your application requests a measurement, it should send out the follo
 
 Examples:
 
-First measurement request: https://welltory.onelink.me/2180424117/bf497b9?source=YourApp&callback=https%3A%2F%2Fwww.yourapp.com%2Fdds%2F
+First measurement request: [FIRST_LAUNCH_LINK]?source=YourApp&callback=https%3A%2F%2Fwww.yourapp.com%2Fdds%2F
 
 Every subsequent measurement request: https://welltory.com/action/dds/measurement?source=YourApp&callback=https%3A%2F%2Fwww.yourapp.com%2Fdds%2F
 
 ```swift
 guard let url = URL(string: String(format: "%@?source=%@&callback=%@",
-                                           "https://welltory.onelink.me/2180424117/bf497b9",
+                                           "[FIRST_LAUNCH_LINK]",
                                            "YourApp",
                                            "https%3A%2F%2Fwww.yourapp.com%2Fdds%2F")) else { return }
 UIApplication.shared.open(url, options: [:])
