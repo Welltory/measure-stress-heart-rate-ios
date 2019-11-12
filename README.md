@@ -87,7 +87,7 @@ No additional tools required.
 
 # Integration <a name="integration"></a>
 
-Welltory doesn’t provide any integration SDKs; all applications interaction are performed with universal links. [Universal links Apple](https://developer.apple.com/ios/universal-links/)
+Welltory doesn’t provide any integration SDKs; all applications interaction are performed with [universal links.](https://developer.apple.com/ios/universal-links/)
 
 **You should start your integration filling out an [Integration Request Form](https://welltory.typeform.com/to/epJ3PR).**
 
