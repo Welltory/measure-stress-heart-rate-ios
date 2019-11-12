@@ -58,7 +58,7 @@ No additional tools required.
 ### Installation guide: <a name="guide"></a>
 
 
-* Clone the repository master brunch using ``` git clone https://github.com/Welltory/Welltory-DDS-Demo.git ```
+* Clone the repository master brunch using ``` git clone https://github.com/Welltory/measure-stress-heart-rate-ios.git ```
 * Open *WelltoryDDSDemo.xcodeproj* file with the XCode 10.0+
 * Run the project
 
