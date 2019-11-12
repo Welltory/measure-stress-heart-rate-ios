@@ -87,7 +87,7 @@ No additional tools required.
 
 # Integration <a name="integration"></a>
 
-Welltory doesn’t provide any integration SDKs; all applications interaction are performed with [universal links.](https://developer.apple.com/ios/universal-links/)
+Welltory doesn’t provide any integration SDKs; all applications interaction are performed with universal links. [Universal links Apple](https://developer.apple.com/ios/universal-links/)
 
 **You should start your integration filling out an [Integration Request Form](https://welltory.typeform.com/to/epJ3PR).**
 
@@ -101,7 +101,7 @@ To start the measurement, you should launch a specific universal link.
 ### Measurement request link <a name="link"></a>
 
 
-For the very first measurement from your application, launch the link: **[FIRST_LAUNCH_LINK] - you will receive it after verification**.
+For the very first measurement from your application, you need to launch the link  **[FIRST_LAUNCH_LINK], which we will send you in our approval of integration email**.
 It will take the user to the measurement screen in case Welltory is installed, or redirect them to the App Store to install it.\
 `Retargeting limitations: If the user has the Welltory app installed within the last 90 days using the [FIRST_LAUNCH_LINK] link, the measurement will not start automatically.`
 
