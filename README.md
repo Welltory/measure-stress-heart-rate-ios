@@ -7,7 +7,9 @@
 This demo app is intended for people who want to integrate with the Welltory app to collect stress, energy, and other HRV data about their users. Demo app shows how your app can work with the Welltory app. This integration is free, and it’s created to help you add value for your users who use Welltory. [Read more here](#install)
 
 To become integration partner - [apply here](https://welltory.typeform.com/to/epJ3PR)
+
 Android Demo app is [here](https://github.com/Welltory/measure-stress-hrv-android)
+
 Description for your manager is [here](https://support.welltory.com/article/show/98292)
 
 Welltory is an app that measures people’s HRV with just a smartphone camera to calculate their stress and energy levels. You can send out users to our app and get them back with measurement results. Welltory integration will allow you to collect data on the following parameters:
